@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Malagon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header class="encabezado-sitio">
+            <h1>Documento Nacional de Identidad (DNI)</h1>
+        </header>
+
+        <section class="seccion-principal">
+            <div class="area-contenido-principal">
+                <div class="fila-cajas-productos">
+                    <div class="caja-crud">
+                        <form id="DNI">
+                            <label for="nombre">Ingresa tu nombre</label>
+                            <input type="text" id="nombre" name="nombre">
+                            <br><br>
+                            <label for="email">Ingresa tu email</label>
+                            <input type="email" id="email" name="email">
+                            <br><br>
+                            <label for="contraseña">Ingresa tu contraseña</label>
+                            <input type="password" id="contraseña" name="contraseña">
+                            <br><br>
+                            <button type="submit">Acepto las condiciones del servicio y enviar datos</button>
+                        </form>
+                        <div id="resultado"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="validar9.js"></script>
+</body>
+</html>
