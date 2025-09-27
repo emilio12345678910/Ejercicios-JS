@@ -5,7 +5,7 @@ form.addEventListener("submit", function(event) {
     event.preventDefault(); 
     const fechaNacimiento = new Date(document.getElementById("fechaNacimiento").value); //new date convierte la fecha ingresada en el calendario a un objeto de fecha
     const fechaActual = new Date(); //new date obtiene la fecha actual del sistema
-    if (isNaN(fechaNacimiento.getTime)||fechaNacimiento > fechaActual()) {
+    if (isNaN(fechaNacimiento.getTime))||fechaNacimiento > fechaActual) {
         resultadoDiv.textContent = "Por favor, ingresa una fecha válida.";
         return;
     }
